@@ -23,7 +23,7 @@ const Item = ({ item, index, updateItem, handleDelete, handleCheck }) => {
 
   return (
     <div className="w-full p-[25px] border-b-[2px] border-gray-300 flex justify-between">
-      <div className="flex items-center gap-[10px]">
+      <div className="w-[85%] flex items-center gap-[10px]">
         <div
           className={`flex justify-center items-center w-[25px] h-[25px] rounded-full cursor-pointer ${
             item.checked
@@ -63,7 +63,7 @@ const Item = ({ item, index, updateItem, handleDelete, handleCheck }) => {
           <h3 className={`text-black text-[16px] ${item.checked ? "line-through text-gray-400" : ""}`}>{item.title}</h3>
         )}
       </div>
-      <div className="flex gap-[10px]">
+      <div className="w-[15%] flex justify-end gap-[10px]">
         <span className="cursor-pointer" onClick={handleEdit}>
           {editMode ? (
             <svg
