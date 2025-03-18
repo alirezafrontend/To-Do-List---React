@@ -1,12 +1,37 @@
-# React + Vite
+# 📝 To-Do List with React  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and minimal To-Do List app built with **React**. Manage your daily tasks with features like **adding, editing, deleting, and marking tasks as complete**. 🚀  
 
-Currently, two official plugins are available:
+🔹 **Built with:** React, Tailwind CSS, JavaScript, HTML, CSS  
+🔹 **Data Persistence:** Saves tasks in Local Storage  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+✔️ Add new tasks  
+✔️ Edit existing tasks  
+✔️ Mark tasks as completed  
+✔️ Delete tasks  
+✔️ Responsive design  
 
-## Expanding the ESLint configuration
+## 🎥 Live Demo  
+🔗 **[Watch Demo](https://to-do-list-react-tan-seven.vercel.app/ "Live Demo")**  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots  
+![App Screenshot](https://github.com/user-attachments/assets/a917dbda-da45-4077-ba11-3829b2cf0180)  
+![App Screenshot](https://github.com/user-attachments/assets/ab9a31ff-e02b-4651-b5d2-fbb7bbfa5b78) 
+![App Screenshot](https://github.com/user-attachments/assets/74dd0d54-6af3-4f47-b068-2320f4a89170) 
+![App Screenshot](https://github.com/user-attachments/assets/ac288ec1-cf34-4ea5-93ef-37011b8cc13e) 
+![App Screenshot](https://github.com/user-attachments/assets/4204de10-36e1-4d1e-a50e-abeddf26810d) 
+![App Screenshot](https://github.com/user-attachments/assets/35eb3d97-ee2b-4d43-b3d2-51ad9e30f819) 
+*(Replace with actual screenshots)*  
+
+## 👨‍💻 Developer  
+**Alireza Hasanpour**  
+📅 **March 18, 2025**  
+💼 **Frontend Developer**  
+
+📲 **Contact Me:**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alireza-hasanpour-9ab4a732b)  
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/alireza_hasanpour_frontend)  
+
+---
+🚀 Made with ❤️ by Alireza Hasanpour  
