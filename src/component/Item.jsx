@@ -24,44 +24,54 @@ const Item = ({ item, index, updateItem, handleDelete, handleCheck }) => {
   return (
     <div className="w-full p-[25px] border-b-[2px] border-gray-300 flex justify-between">
       <div className="w-[85%] flex items-center gap-[10px]">
-        <div
-          className={`flex justify-center items-center w-[25px] h-[25px] rounded-full cursor-pointer ${
-            item.checked
-              ? "bg-[#5730af] border-[1px] border-[#5730af]"
-              : "bg-white border-[1px] border-gray-400"
-          }`}
-          onClick={() => handleCheck(index)}
-        >
-          {item.checked ? (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-4 text-white"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m4.5 12.75 6 6 9-13.5"
-              />
-            </svg>
+        <div className="flex">
+          <div
+            className={`flex justify-center items-center w-[25px] h-[25px] rounded-full cursor-pointer ${
+              item.checked
+                ? "bg-[#5730af] border-[1px] border-[#5730af]"
+                : "bg-white border-[1px] border-gray-400"
+            }`}
+            onClick={() => handleCheck(index)}
+          >
+            {item.checked ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-4 text-white"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+            ) : (
+              ""
+            )}
+          </div>
+        </div>
+        <div className="flex">
+          {editMode ? (
+            <input
+              type="text"
+              value={editedValue}
+              onChange={(e) => setEditedValue(e.target.value)}
+              className="border-none outline-none"
+              ref={focusInp}
+            />
           ) : (
-            ""
+            <h3
+              className={`text-black text-[16px] ${
+                item.checked ? "line-through text-gray-400" : ""
+              }`}
+            >
+              {item.title}
+            </h3>
           )}
         </div>
-        {editMode ? (
-          <input
-            type="text"
-            value={editedValue}
-            onChange={(e) => setEditedValue(e.target.value)}
-            className="border-none outline-none"
-            ref={focusInp}
-          />
-        ) : (
-          <h3 className={`text-black text-[16px] ${item.checked ? "line-through text-gray-400" : ""}`}>{item.title}</h3>
-        )}
       </div>
       <div className="w-[15%] flex justify-end gap-[10px]">
         <span className="cursor-pointer" onClick={handleEdit}>
