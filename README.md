@@ -22,7 +22,6 @@ A sleek and minimal To-Do List app built with **React**. Manage your daily tasks
 ![App Screenshot](https://github.com/user-attachments/assets/ac288ec1-cf34-4ea5-93ef-37011b8cc13e) 
 ![App Screenshot](https://github.com/user-attachments/assets/4204de10-36e1-4d1e-a50e-abeddf26810d) 
 ![App Screenshot](https://github.com/user-attachments/assets/35eb3d97-ee2b-4d43-b3d2-51ad9e30f819) 
-*(Replace with actual screenshots)*  
 
 ## 👨‍💻 Developer  
 **Alireza Hasanpour**  
