@@ -82,7 +82,7 @@ const TaskMain = () => {
 
   function showMessage(msg) {
     setMessage(msg);
-    setIsMessage(true); // این خط باعث اجرای useEffect می‌شود
+    setIsMessage(true);
   }
 
   return (
